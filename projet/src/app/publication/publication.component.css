@@ -1,0 +1,63 @@
+*::-webkit-scrollbar-thumb
+{
+    background-color: red;
+}
+.voirPub
+{
+    height: 82vh;
+    padding-bottom: 5%;
+    overflow-y: scroll;
+    background-color: rgba(0, 0, 0, 0.712);
+}
+
+.voirPub::-webkit-scrollbar-corner
+{
+    background-color: transparent;
+}
+
+
+.fa
+{
+    border-right: rgb(255, 255, 255) 1px solid;
+}
+
+i 
+{
+    color: aliceblue;
+    font-size: 2rem;
+}
+.card
+{
+    background-color: #131416;
+    border: 1px white solid;
+}
+.card-footer
+{
+    border-top: white 1px solid;
+}
+.sary
+{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background: linear-gradient(to right, red,white);
+}
+.icons
+{
+    padding-left: 15%;
+}
+
+.publier
+{
+    width: 100%;
+    border-bottom: white solid 1px;
+    border-top: white solid 2px;
+    border-radius: 15px 15px 0 0;
+    height: 15vh;
+    background-color: rgba(0, 0, 0, 0.918);
+}
+h2{
+    color: wheat;
+    font-family: 'font-2';
+    font-size: 1.5rem;
+}

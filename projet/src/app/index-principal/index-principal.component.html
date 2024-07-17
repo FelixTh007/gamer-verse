@@ -1,0 +1,43 @@
+<div class="body col-12">
+    <div class="container">
+        <div class="row">
+            <h1 class="col-7 mt-5">Gam3R-Verse</h1>    
+            <div class="col-6 explication">
+                <h4> Un havre virtuel pour les joueurs du monde entier </h4>
+                <p class="phrase">
+                    Plongez dans un univers de jeux vidéo où vous pourrez vous connecter avec des joueurs du monde entier, participer à des jeux multijoueurs exaltants et partager votre passion pour le jeu.
+                </p>
+                <h4>   Connectez-vous, jouez et exprimez-vous ! </h4>
+                <p class="phrase">
+                    Ce site extraordinaire vous permet de rencontrer des joueurs du monde entier, de participer à des jeux multijoueurs palpitants et de partager vos expériences et vos idées.
+                </p>
+                <h4> Ce n'est pas qu'un site de jeux, c'est une communauté !</h4>
+                
+                <p class="phrase">
+    
+                    Forgez des amitiés durables et faites partie d'une communauté mondiale de joueurs en plein essor.
+
+                    Que vous soyez à la recherche de compétition intense, de quêtes collaboratives ou simplement de camaraderie entre des personnes partageant les mêmes idées, ce site a quelque chose à offrir à chaque passionné de jeux.
+                </p>
+            </div>
+            <div class="col-6">
+                
+                <div *ngIf="!toLogin">
+                    <app-login></app-login>
+                         <span class="col-6"><h5>vous avez pas de compte ?  </h5> </span><span class="col-4"><h5 > <button class="btn btn-danger" (click)="onClick()">Cliquez ici</button> pour vous inscrire </h5></span>   
+                         
+                    
+                </div>
+                <div *ngIf="toLogin">
+                     <app-sign-in></app-sign-in>
+                    <span class="col-6"><h5>vous avez pas de compte ?</h5> </span><span class="col-4"> <h5 > <button class="btn btn-danger" (click)="onClick()">Cliquez ici</button> afin que vous puissiez vous connecter </h5></span>    
+                </div>
+                <a routerLink ="acceuil"><button class="btn btn-danger">Accuiel racourrci
+                </button></a>
+            </div>
+        </div>
+        
+    </div>
+
+</div>
+    

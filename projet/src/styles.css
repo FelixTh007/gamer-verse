@@ -1,0 +1,26 @@
+/* You can add global styles to this file, and also import other style files */
+@import 'bootstrap/dist/css/bootstrap.min.css';
+@import "@flaticon/flaticon-uicons/css/all/all.css";
+
+@font-face {
+    font-family: 'font-1';
+    src: url("../src/assets/font/BlackOpsOne-Regular.ttf");
+}
+@font-face {
+    font-family: 'font-2';
+    src: url("../src/assets/font/Orbitron-VariableFont_wght.ttf");
+}
+@font-face {
+    font-family: 'font-3';
+    src: url("../src/assets/font/VT323-Regular.ttf");
+}
+@font-face {
+    font-family: 'font-4';
+    src: url('../src/assets/font/IBMPlexMono-Bold.ttf');
+}
+
+*{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}

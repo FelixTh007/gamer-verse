@@ -1,0 +1,48 @@
+.mini-body
+{
+    background-color: rgba(0, 0, 0, 1);
+    box-shadow: rgba(255, 0, 0, 0.603) 0  0 10px;
+    padding-top: 1%;
+    height: 90vh;
+}
+.searchbar, button
+{
+    display: inline-block;
+}
+button
+{ margin-left: 2%;}
+.btn-primary
+{background-color: rgb(228, 6, 6);
+border: 2px solid red;}
+form
+{
+    margin-left: 10%;
+    padding: 1%;
+}
+tr td
+{
+    border: 1px solid black;
+}
+.searchbar input{
+    border: rgb(255, 2, 2) 1px solid;
+    background-color: transparent;
+    color: white;
+    box-shadow: none;
+    font-family: 'font-4';
+}
+.searchbar input:hover 
+{
+    box-shadow: red 0 0 5px;
+}
+input::-webkit-search-cancel-button
+{
+    color: white;
+}
+i
+{
+    color: white;
+}
+.h2{
+    font-family: 'font-2';
+    color: white;
+}

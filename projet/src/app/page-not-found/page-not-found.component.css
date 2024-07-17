@@ -1,0 +1,19 @@
+*{    overflow: hidden;}
+h1
+{
+    color: transparent;
+    background-color: transparent;
+    background: linear-gradient(to right, rgb(233, 0, 0), rgb(255, 255, 255), rgb(0, 0, 0)) ;
+    background-clip: text;
+    font-size: 7rem;
+    font-family: 'font-1';
+    width: 82%;
+}
+body
+{
+    padding-top: 20%;
+    padding-left: 5%;
+    background-image: url("../../assets/ProjetJS/Back-2.PNG");
+    background-size: cover;
+    height: 100vh;
+}

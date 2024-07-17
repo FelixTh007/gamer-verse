@@ -1,0 +1,25 @@
+.form-control
+{
+    background: transparent;
+}
+h1
+{
+    font-family: 'font-2';
+    color: wheat;
+}
+button
+{
+    font-family: 'font-1';
+    background-color: red;
+    font-size: 1.5rem;
+}
+input
+{
+    font-family: 'font-2';
+    background-color: rgba(240, 248, 255, 0.295);
+}
+input::placeholder
+{
+    font-family: 'font-2';
+    color: rgba(255, 255, 255, 0.637);
+}
