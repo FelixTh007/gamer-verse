@@ -1,7 +1,7 @@
 nav
 {
     background-color: black;
-    height: 10vh;
+    height: 8vh;
     box-shadow: red 0 0 20px;
     position: relative;
     animation: ombre 5s infinite linear;

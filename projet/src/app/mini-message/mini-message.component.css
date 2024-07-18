@@ -3,8 +3,11 @@
     background-color: rgba(0, 0, 0, 1);
     box-shadow: rgba(255, 0, 0, 0.603) 0  0 10px;
     padding-top: 1%;
-    height: 90vh;
+    height: 92vh;
+    overflow: hidden;
 }
+
+
 .searchbar, button
 {
     display: inline-block;
