@@ -3,10 +3,8 @@ body{
     background-size: cover;    
     margin: 0;
     padding: 0;
-
     box-sizing: border-box;
     overflow: hidden;
     height: 100vh;
-    animation: backAnimation 10s infinite linear;
 }
 

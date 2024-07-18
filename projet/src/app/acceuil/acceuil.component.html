@@ -8,9 +8,12 @@
                 
             </app-mini-message>    
         </div>
-        <div class="col-6 mt-5 ms-5">
-            <app-publication></app-publication>
+        <div class="col-6">
+            <app-publication *ngIf="publication"></app-publication>
+
         </div>
-    
+        <div class="col-3">
+            <app-options></app-options>
+        </div>
     </div>
 </body>

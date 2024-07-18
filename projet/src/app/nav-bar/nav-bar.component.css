@@ -43,6 +43,7 @@ nav .logo h1{
     background-clip: text;
     animation: logoAnimation 10s infinite;
     transform: scale(1.02);
+    user-select: none;
 }
 @keyframes logoAnimation {
     0% {
@@ -74,8 +75,27 @@ nav ul li .a
 }
 nav ul li .a:hover
 {
-  color: red;
+  animation:  liAction 2s infinite;
 }
+
+@keyframes liAction {
+  0%{
+    color: white;
+    text-shadow: blue 0 0 10px;
+  }
+  50%
+  {
+    color: #ff0000;
+    text-shadow: white 0 0 10px;
+  }
+  100%
+  {
+    color: #000080;
+    text-shadow: red 0 0 10px;
+  }
+}
+
+
 nav ul .exeption:hover
 {
   color: rgb(223, 68, 68);

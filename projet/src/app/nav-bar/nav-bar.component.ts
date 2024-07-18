@@ -8,4 +8,10 @@ import { Component } from '@angular/core';
 export class NavBarComponent {
   public onProfil : boolean = false;
   public onGame : boolean = false;
+
+  fermer()
+  {
+    this.onGame = !this.onGame;
+  }
+
 }

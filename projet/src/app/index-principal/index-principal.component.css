@@ -18,7 +18,7 @@ h1
     font-family: 'font-1';
     color: transparent;
     background-color: transparent;
-    background: linear-gradient(to right,rgba(17, 233, 17, 0.692),yellow,orange, orangered, red , orangered);
+    background: linear-gradient(to right,yellow,orange, orangered, red);
     background-clip: text;
     font-size: 6rem ;
     transition: all 2s;

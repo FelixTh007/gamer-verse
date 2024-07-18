@@ -9,7 +9,7 @@
                 <div class="liste col-8">
                     <ul class="nav nav-underline justify-content-end ">
                         <li class="nav-item" *ngIf="!onProfil"> <span class="a nav-link">Profil</span></li>
-                        <li *ngIf="!onGame" ><span class="a nav-link ">Espace Jeu</span></li>
+                        <li><span class="a nav-link " (click)="fermer()" >Espace Jeu</span></li>
                         <li><span class="a nav-link">Options</span></li>
                         <li><span class="a nav-link exeption">Deconnexion</span></li>
                     </ul>

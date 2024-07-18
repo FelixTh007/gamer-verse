@@ -13,6 +13,7 @@ import { NavBarComponent } from './nav-bar/nav-bar.component';
 import { MiniMessageComponent } from './mini-message/mini-message.component';
 import { PageNotFoundComponent } from './page-not-found/page-not-found.component';
 import { PublicationComponent } from './publication/publication.component';
+import { OptionsComponent } from './options/options.component';
 
 @NgModule({
   declarations: [
@@ -26,7 +27,8 @@ import { PublicationComponent } from './publication/publication.component';
     NavBarComponent,
     MiniMessageComponent,
     PageNotFoundComponent,
-    PublicationComponent
+    PublicationComponent,
+    OptionsComponent
   ],
   imports: [
     BrowserModule,
