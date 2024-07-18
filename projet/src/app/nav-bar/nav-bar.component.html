@@ -7,9 +7,11 @@
                     </h1>
                 </div>
                 <div class="liste col-8">
-                    <ul>
-                        <li>Notification</li>
-                        <li>OPtions</li>
+                    <ul class="nav nav-underline justify-content-end ">
+                        <li class="nav-item" *ngIf="!onProfil"> <span class="a nav-link">Profil</span></li>
+                        <li *ngIf="!onGame" ><span class="a nav-link ">Espace Jeu</span></li>
+                        <li><span class="a nav-link">Options</span></li>
+                        <li><span class="a nav-link exeption">Deconnexion</span></li>
                     </ul>
             </div>
         </nav>

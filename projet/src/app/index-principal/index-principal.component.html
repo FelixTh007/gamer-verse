@@ -24,13 +24,11 @@
                 
                 <div *ngIf="!toLogin">
                     <app-login></app-login>
-                         <span class="col-6"><h5>vous avez pas de compte ?  </h5> </span><span class="col-4"><h5 > <button class="btn btn-danger" (click)="onClick()">Cliquez ici</button> pour vous inscrire </h5></span>   
-                         
-                    
+                <div class="col-12 theP"><p>Si vous n'avez pas de compte veuillez <button (click)="onClick()" class="btn btn-primary lesBout">cliquez-ici</button></p></div>    
                 </div>
                 <div *ngIf="toLogin">
                      <app-sign-in></app-sign-in>
-                    <span class="col-6"><h5>vous avez pas de compte ?</h5> </span><span class="col-4"> <h5 > <button class="btn btn-danger" (click)="onClick()">Cliquez ici</button> afin que vous puissiez vous connecter </h5></span>    
+                    <div class="col-12 theP"><p>Si vous avez deja un compte veuillez vous <button class="btn btn-primary lesBout" (click)="onClick()">connecter ici</button></p></div>
                 </div>
                 <a routerLink ="acceuil"><button class="btn btn-danger">Accuiel racourrci
                 </button></a>

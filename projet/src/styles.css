@@ -18,6 +18,10 @@
     font-family: 'font-4';
     src: url('../src/assets/font/IBMPlexMono-Bold.ttf');
 }
+@font-face {
+    font-family: 'font-5';
+    src: url('../src/assets/font/Belgrano/Belgrano-Regular.ttf');
+}
 
 *{
     list-style-type: none;

@@ -1,6 +1,12 @@
 body{
+    background-color: #131416;
+    background-size: cover;    
+    margin: 0;
+    padding: 0;
+
+    box-sizing: border-box;
     overflow: hidden;
-    background-image: url("../../assets/ProjetJS/Back-2.PNG");
-    background-size: cover;
-    
+    height: 100vh;
+    animation: backAnimation 10s infinite linear;
 }
+

@@ -1,25 +1,46 @@
 <div class="col-12">
     <div class="row">
         <div class="col-12 publier">
-          
+            <div class="row mt-3">
+                <div class=" ms-5 col-2">
+                    <div class="pdp">
+                        
+                    </div>
+                    <div>
+                        <p class="user">
+                            User Name
+                        </p>
+                    </div>
+                </div>
+                <div class="col-7 mt-3">
+                    <div class="form-floating">
+                            <textarea name="pub" id="pub" class="form-control" id="floatingTextarea"></textarea>
+                            <label for="floatingTextarea">Publier??</label>
+                            <button class="btn btn-danger bout mt-1"><i class="fi fi-bs-picture"></i></button>
+                        </div>
+
+                </div>
+                <div class="col-2 mt-3">
+                    <button class="btn btn-danger"><i class="fi fi-br-hand-holding-box"></i></button>
+                </div></div>
         </div>
         <div class="col-12 voirPub here">
-            <div *ngFor = "let number of nombre">
+            <div *ngFor="let pub of gamingPublications; let i = index">
                 <div class="card container mt-4 col-8">
                     <div class="card-body ">
                         <nav>
                             <div class="row">
                                 <div class="col-2 sary"></div>
-                                <div class="col-8"><h2>Nom user</h2></div>
+                                <div class="col-8"><h2>{{pub.author}} </h2></div>
                             </div>
                         </nav>
                         <section>
-                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorem, vel tempora deserunt vitae ex inventore earum atque obcaecati itaque saepe a at esse, totam amet debitis cumque eum aliquam beatae.
+                           <p>{{pub.content}}</p>
                         </section>
                     </div>
                     <div class="card-footer">
                        <div class="row">
-                        <div class="col-4 fa icons"><i class="fi fi-rr-heart "></i></div>
+                        <div class="col-4 fa icons" (click)="toLike(i)"><i class="{{liker[i] ? 'fi fi-sr-heart ':'fi fi-rr-heart' }}" ></i></div> <!-- fi fi-sr-heart -->
                         <div class="col-4 fa icons"><i class="fi fi-rr-comment-alt-middle "></i></div>
                         <div class="col-4 icons"><i class="fi fi-rr-eye-crossed "></i></div>
                        </div>

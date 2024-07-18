@@ -1,19 +1,19 @@
 <div class="mini-body col-12">
     <div class="row">
-        <div class="col-12 mt-2">
-            <form>
-                <div class="col-9 searchbar"><input type="search" name="Search bar" id="Search bar" placeholder="Faites vos recherche ici" class="form-control" ></div><button class="btn btn-primary col-2"><i class="fi fi-bs-search"></i></button>
-            </form>
+        <div class="col-12 mt-4">
+                <form>
+                    <div class="col-9 searchbar"><input type="search" name="Search bar" id="Search bar" placeholder="Faites vos recherche ici" class="form-control" ></div><button class="btn btn-primary col-2"><i class="fi fi-bs-search"></i></button>
+                </form>
         </div>
-        <div class="col-12">
-                <table class="table table-striped-columns">
-                <tbody>
-                    <tr> </tr>
-                    <tr>Rasoa</tr>
-                </tbody>
-            </table>
-
-            <button (onclick)="fonction()"> click here</button>
+        <div class="col-11 mt-3 ms-3 ">
+            <div class="row liste">
+                <table class="" *ngFor="let pers of personne">
+                      
+                        <tr><td (click)="fonction()">{{pers.nom}}</td><td>{{pers.message}}</td></tr>
+                  
+                  </table>
+            </div>
+          
         </div>
     </div>
 </div>

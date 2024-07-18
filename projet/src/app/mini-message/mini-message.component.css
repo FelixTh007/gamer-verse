@@ -13,22 +13,22 @@ button
 { margin-left: 2%;}
 .btn-primary
 {background-color: rgb(228, 6, 6);
-border: 2px solid red;}
+border: 2px solid red;
+height: 5vh;}
 form
 {
     margin-left: 10%;
     padding: 1%;
 }
-tr td
-{
-    border: 1px solid black;
-}
+
+
 .searchbar input{
     border: rgb(255, 2, 2) 1px solid;
     background-color: transparent;
     color: white;
     box-shadow: none;
     font-family: 'font-4';
+    height: 5vh;
 }
 .searchbar input:hover 
 {
@@ -45,4 +45,35 @@ i
 .h2{
     font-family: 'font-2';
     color: white;
+}
+
+table tr td {padding: 3%;border-bottom: 1px white solid;
+font-size: 1.2rem;
+font-family: 'font-4';
+user-select: none;
+width: 50%;
+color: white;}
+table tr:hover
+{
+
+    background-color: rgba(240, 248, 255, 0.651);
+}
+table tr:active
+{
+    background-color: rgb(255, 0, 0);
+}
+.liste{
+    border-top: white 1px solid;
+    overflow-y: scroll;
+    height:80vh;
+}
+.liste::-webkit-scrollbar
+{
+    background-color: transparent;
+}
+.liste::-webkit-scrollbar-thumb
+{
+    background-color: wheat;
+    border-radius: 20px;
+
 }
