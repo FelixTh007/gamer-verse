@@ -7,9 +7,10 @@
         </div>
         <div class="col-11 mt-3 ms-3 ">
             <div class="row liste">
+                <h2>Extraits de vos message</h2>
                 <table class="" *ngFor="let pers of personne">
-                      
-                        <tr><td (click)="fonction()">{{pers.nom}}</td><td>{{pers.message}}</td></tr>
+
+                        <tr><td (click)="fonction()"><p class="Nom">{{pers.nom}}</p></td><td>{{pers.message}}</td></tr>
                   
                   </table>
             </div>

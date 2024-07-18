@@ -11,10 +11,7 @@ export class AcceuilComponent implements OnInit{
   public message :  boolean = false;
   public options : boolean = false;
 
-  constructor(private nav : NavBarComponent)
-  {
-      this.publication = nav.onGame;
-  }
+  
 
   ngOnInit() : void{
     this.publication = !this.publication;

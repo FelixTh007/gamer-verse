@@ -34,8 +34,7 @@ i
 .card
 {
     background-color: #131416;
-    border: 1px white solid;
-    box-shadow: rgba(255, 255, 255, 0.233) 0 0 8px;
+
 }
 .card-footer
 {
@@ -58,8 +57,8 @@ i
 {
     width: 100%;
     border-bottom: white solid 1px;
-   
-    height: 15vh;
+    border-top: white solid 2px;
+    height: 12vh;
     background-color: rgba(0, 0, 0, 0.918);
 }
 h2{
@@ -74,8 +73,8 @@ section p
 }
 .pdp
 {
-    width: 100px;
-    height: 100px;
+    width: 80px;
+    height: 80px;
     background-image: url("../../assets/ProjetJS/Back-2.PNG");
     background-size: cover;
     border-radius: 50%;
@@ -89,3 +88,4 @@ section p
 {
     background-color: red;
 }
+.color{color: red;}

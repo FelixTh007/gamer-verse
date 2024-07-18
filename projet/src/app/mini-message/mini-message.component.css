@@ -1,6 +1,6 @@
 .mini-body
 {
-    background-color: rgba(0, 0, 0, 1);
+    background-color: rgba(0, 0, 0, 0.527);
     box-shadow: rgba(255, 0, 0, 0.603) 0  0 10px;
     padding-top: 1%;
     height: 92vh;
@@ -22,8 +22,14 @@ form
 {
     margin-left: 10%;
     padding: 1%;
+
 }
 
+h2{
+    color: white;
+    font-family: 'font-2';
+    user-select: none;
+}
 
 .searchbar input{
     border: rgb(255, 2, 2) 1px solid;
@@ -50,7 +56,7 @@ i
     color: white;
 }
 
-table tr td {padding: 3%;border-bottom: 1px white solid;
+table tr td {padding: 3%;border-bottom: 1px rgba(255, 255, 255, 0.342) solid;
 font-size: 1.2rem;
 font-family: 'font-4';
 user-select: none;
@@ -79,4 +85,9 @@ table tr:active
     background-color: wheat;
     border-radius: 20px;
 
+}
+.Nom
+{
+    font-family: 'font-5';
+    font-size: 1.5em;
 }
