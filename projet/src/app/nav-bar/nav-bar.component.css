@@ -5,6 +5,7 @@ nav
     box-shadow: red 0 0 20px;
     position: relative;
     animation: ombre 5s infinite linear;
+    
 }
 @keyframes ombre
 {
@@ -38,7 +39,9 @@ nav .logo h1{
     color: transparent ;
     font-size: 4.5rem; 
     font-family: 'font-1';
-    background: linear-gradient(to right, #000000,red ,#ff0080, #00ffff, #00ff80, #000080, #00ff80,#00ffff,#ff0080,red,black);
+  /*  background: linear-gradient(to right, #000000,red ,#ff0080, #00ffff, #00ff80, #000080, #00ff80,#00ffff,#ff0080,red,black);
+   */
+    background: linear-gradient(to right,#0C1844,#5D0E41,#A0153E,#C80036,#FF407D,#FF6969,#FFF5E1,#FF6969,#FF407D,#C80036,#A0153E,#5D0E41,#0C1844);   
     background-size: 200%;
     background-clip: text;
     animation: logoAnimation 10s infinite;

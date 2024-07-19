@@ -15,6 +15,8 @@ import { PageNotFoundComponent } from './page-not-found/page-not-found.component
 import { PublicationComponent } from './publication/publication.component';
 import { OptionsComponent } from './options/options.component';
 
+import { PickerComponent } from '@ctrl/ngx-emoji-mart';
+
 @NgModule({
   declarations: [
     AppComponent,
@@ -32,7 +34,8 @@ import { OptionsComponent } from './options/options.component';
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    PickerComponent,
   ],
   providers: [
     provideClientHydration()

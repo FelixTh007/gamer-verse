@@ -1,0 +1,110 @@
+nav, footer{
+    height: 8vh;
+    background-color: rgba(0, 0, 0, 0.829);
+}
+nav{box-shadow: black 0 0 10px; border-radius: 15px 15px 0 0;}
+footer{border-radius: 0 0 15px 15px;}
+section{
+    height: 70vh;
+    background-color: rgba(0, 0, 0, 0.336);
+    overflow-y: scroll ;
+}
+section::-webkit-scrollbar{
+    background-color: transparent;
+    width: 0.5vw;
+}
+section::-webkit-scrollbar-thumb
+{
+    border-radius: 50%;
+    color: red;
+}
+textarea {
+    background-color: rgba(0, 0, 0, 0.575);
+    border-radius: 200px;
+}
+textarea::-webkit-scrollbar
+{
+    background: black;
+    width: 0.5rem;
+}
+textarea::-webkit-scrollbar-thumb
+{
+    background-color: rgb(255, 255, 255);
+    border-radius: 50px;
+}
+textarea::-webkit-scrollbar-corner
+{
+    background-color: black;
+}
+
+.photo
+{
+    width: 70px;
+    height: 70px;
+    background-image: url("../../assets/ProjetJS/sary.webp");
+    background-size: cover;
+    border-radius: 50%;
+    position: relative;
+}
+.enLigne{
+    width: 30%;
+    height: 30%;
+    border-radius: 50%;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    background-color: greenyellow;
+    border: black 3px solid;
+}
+
+nav .entete h4 ,
+nav .entete p 
+{
+    color: white;
+}
+button
+{
+    margin: 2%;
+    font-size: 1.8em;
+    background-color: rgb(99, 11, 11);
+    border: none;
+}
+
+
+/* ------------------ */
+section p{color: white;
+    font-size: 1.15rem;}
+.otherUser , .user
+{
+    max-width: 400px;
+    border-radius: 15px;
+    padding: 20px 10px 30px 10px ;
+}
+.otherUser{background-color: rgb(4, 10, 27);}
+.user{background-color: blue;}
+.trait{
+    background-color: #222427;
+    height: 2vh;
+    width: 98%;
+    
+}
+.t-1
+{
+    border-radius: 20px 0 14px 0;
+}
+.t-2
+{
+    border-radius: 0 20px 0 14px;
+}
+.test{border:#131416 solid 2px}
+
+.tr
+{
+    background-color: red;
+    height: auto;
+}
+.td
+{
+    background-color: white;
+    height: auto;
+}
