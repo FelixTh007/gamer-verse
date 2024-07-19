@@ -13,9 +13,21 @@ table tr td
     font-size: 2rem;
     font-family: 'font-5';
     width: 20vw;
+    color: white;
 }
 .stat
 {
     border-bottom: 1px solid rgb(0, 0, 0);
     box-shadow: black 0 5px 10px;
+}
+.static
+{
+    height: 50vh;
+}
+
+.side-1
+{
+    border-right: 1px solid white;
+    background-color: red;
+    height: 100%;
 }
