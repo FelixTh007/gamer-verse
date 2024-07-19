@@ -14,15 +14,15 @@
                 </div>
                 <div class="col-7 mt-3">
                     <div class="form-floating">
-                            <textarea name="pub" id="pub" class="form-control" id="floatingTextarea"></textarea>
+                            <textarea name="pub" id="pub" class="form-control mt-2" id="floatingTextarea"></textarea>
                             <label for="floatingTextarea">Publier??</label>
                             
                         </div>
 
                 </div>
                 <div class="col-2 mt-3">
-                    <button class="btn btn-danger bout "><i class="fi fi-bs-picture"></i></button>
-                    <button class="btn btn-danger ms-2"><i class="fi fi-br-hand-holding-box"></i></button>
+                    <button class="btn btn-danger bout mt-1"><i class="fi fi-bs-picture"></i></button>
+                    <button class="btn btn-danger ms-2 mt-1"><i class="fi fi-br-hand-holding-box"></i></button>
                 </div></div>
         </div>
         <div class="col-12 voirPub here">
@@ -32,7 +32,7 @@
                         <nav>
                             <div class="row">
                                 <div class="col-2 sary"></div>
-                                <div class="col-8"><h2>{{pub.author}} </h2></div>
+                                <div class="col-8"><h2>{{pub.author}} </h2><p>postee le 01/02/99</p></div>
                             </div>
                         </nav>
                         <section>
@@ -41,7 +41,7 @@
                     </div>
                     <div class="card-footer">
                        <div class="row">
-                        <div class="col-4 fa icons" (click)="toLike(i)"><i class="{{liker[i] ? 'fi fi-sr-heart color':'fi fi-rr-heart' }}" ></i></div> <!-- fi fi-sr-heart -->
+                        <div class="col-4 fa icons" (click)="toLike(i)"><i class="{{liker[i] ? 'fi fi-sr-heart color':'fi fi-rr-heart sansCol' }}" ></i></div> <!-- fi fi-sr-heart -->
                         <div class="col-4 fa icons"><i class="fi fi-rr-comment-alt-middle "></i></div>
                         <div class="col-4 icons"><i class="fi fi-rr-eye-crossed "></i></div>
                        </div>

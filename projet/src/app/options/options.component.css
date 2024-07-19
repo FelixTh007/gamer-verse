@@ -1,5 +1,35 @@
 .contain
 {
-    background-color: red;
+    background-color: rgba(0, 0, 0, 0.521);
     height: 92vh;
 }
+.card{border-radius: 0px;
+background-color: transparent;}
+table,tr,td{width: 100%;}
+table tr td {
+    font-size: 1.5rem;
+    color: rgb(255, 255, 255);
+    height: 5vh;
+}
+table tr td i , table tr td p{display: inline; margin-left: 2%;}
+table tr td p{
+    user-select: none;
+}
+
+table tr td:hover
+{
+    background-color: rgba(218, 206, 206, 0.87);
+    border-radius: 15px;
+    color: black;
+}
+
+.card-footer button{
+    height: 4vh;
+    font-family: 'font-2';
+    font-size: 1.2rem;
+}
+table{
+    border-bottom: white 1px solid;
+    transition: all 0.5s;
+}
+table:hover{border-bottom: none;}

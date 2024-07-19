@@ -10,11 +10,10 @@ export class AcceuilComponent implements OnInit{
   public publication : boolean = false;
   public message :  boolean = false;
   public options : boolean = false;
-
   
 
   ngOnInit() : void{
-    this.publication = !this.publication;
+    this.message = !this.message;
   }
   
   
