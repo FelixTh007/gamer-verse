@@ -79,7 +79,8 @@ section p{color: white;
     max-width: 400px;
     border-radius: 15px;
     /*padding: 20px 10px 30px 10px ;*/
-    padding: 20px 10px 20px 10px ;
+    padding: 20px 15px 20px 15px ;
+    text-align: justify;
 }
 .otherUser{background-color: rgb(4, 10, 27);}
 .user{background-color: blue;
