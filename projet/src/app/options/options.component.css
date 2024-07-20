@@ -32,4 +32,6 @@ table{
     border-bottom: white 1px solid;
     transition: all 0.5s;
 }
+button{background: red;}
+button:hover{background-color: black;}
 table:hover{border-bottom: none;}

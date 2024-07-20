@@ -70,7 +70,7 @@ margin-right: 5%;
 }
 nav ul li .a
 {
-  color: white;
+   color: white;
    font-size: 2rem;
    font-family: 'font-2';
    font-weight: bold;
@@ -84,7 +84,7 @@ nav ul li .a:hover
 @keyframes liAction {
   0%{
     color: white;
-    text-shadow: blue 0 0 10px;
+    text-shadow: rgb(0, 255, 234) 0 0 10px;
   }
   50%
   {
@@ -93,7 +93,7 @@ nav ul li .a:hover
   }
   100%
   {
-    color: #000080;
+    color: #ffffff;
     text-shadow: red 0 0 10px;
   }
 }

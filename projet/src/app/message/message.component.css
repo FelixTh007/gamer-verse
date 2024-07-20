@@ -66,8 +66,11 @@ button
 {
     margin: 2%;
     font-size: 1.8em;
-    background-color: rgb(99, 11, 11);
+    background-color: red;
     border: none;
+}
+button:hover{
+    background-color: black;
 }
 
 
@@ -82,15 +85,15 @@ section p{color: white;
     padding: 20px 15px 20px 15px ;
     text-align: justify;
 }
-.otherUser{background-color: rgb(4, 10, 27);}
-.user{background-color: blue;
+.otherUser{background-color: black;}
+.user{background-color: red;
     margin-left: 60%;
 }
 .trait{
     background-color: #222427;
-    height: 2vh;
-    width: 98%;
-    
+    height: 3vh;
+    width: 99.5%;
+    position: absolute;
 }
 .t-1
 {
