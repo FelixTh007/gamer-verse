@@ -95,3 +95,6 @@ table tr:active
     font-family: 'font-5';
     font-size: 1.5em;
 }
+button:hover{
+    background-color: black;
+}
